@@ -1,0 +1,282 @@
+@font-face {
+    font-family: Helvetica;
+    src: url(Assets/Helvetica-Font);
+}
+body {
+    margin: 0;
+    font-family: Helvetica;
+    background-color: #070707;
+    overflow-x: hidden;
+}
+
+/* -------hotbar------- */
+
+#hotbar{
+    height: 58px;
+    position: sticky;
+    width: 100vw;
+    background-color: #212020;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 58vw;
+    top: 0px;
+}
+#simbolo {
+    height: 32px;
+    width: 30px;
+    margin-left: 80px;
+}
+#idioma {
+    color: white;
+    font-size: 14px;
+    margin-left: 16px;
+}
+#selecao {
+    margin-left: 8px;
+}
+#lupa {
+    height: 32px;
+    width: 32px;
+
+}
+#login {
+    height: 32px;
+    width: 80px;
+    background-color: white;  
+    margin-left: 48px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+#cadastro {
+    height: 32px;
+    width: 135px;
+    background-color: #9C00FF;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    margin-left: 24px;
+}
+.bloc_head{
+    display: flex;
+    align-items: center;
+}
+
+/* -------Botão FAQ------- */
+
+#faq {
+    position: sticky;
+    left: 93vw;
+    top: 88vh;
+    opacity: 50%;
+}
+#faq:hover {
+    opacity: 110%;
+    cursor: pointer;
+}
+
+/* -------Banner------- */
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 581px;
+    margin: 40px 0px 24px 80px;
+    color: white;
+    background: url(Assets/Foguete.png);
+    background-repeat: no-repeat;
+}
+#titulo{
+    width: 484px;
+    font-size: 48px;
+}
+#texto{
+    width: 611px;
+    font-size: 20px;
+}
+.botao {
+    background-color: #9C00FF;
+    color: white;
+    width: 216px;
+    height: 46px;
+    border-radius: 16px;
+    margin-top: 32px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#confiravalia {
+    margin-left: 88px;
+}
+
+
+/* -------Softwears------- */
+
+#apps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#softwears {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#softuo {
+    font-size: 40px;
+    color: white;
+    margin: 48px 0px 0px 0px;
+}
+#sobre  {
+    width: 976px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    line-height: 25.3px;
+}
+#coluna1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.colunas {
+    display: flex;
+}
+.titulos {
+    margin: 10px 24px 8px 24px;
+    font-size: 23px;
+}
+.banners {
+    margin-left: 24px;
+    margin-right: 24px;
+    background-color: white;
+    height: 355px;
+    width: 349px;
+    border-radius: 10px;
+    line-height: 16.1px;
+}
+.textos {
+    width: 301px;
+    margin: 0px 24px 56px 24px;
+    font-size: 14px;
+    height: 46px;
+}
+#divisao {
+    width: 301px;
+    margin: 0px 24px 0px 24px;
+}
+.sabmais {
+    width: 144px;
+    height: 32px;
+    border-radius: 12px;
+    background-color: white;
+    margin: 24px 0px 24px 180px;
+    border: solid 1;
+}
+.sabmais:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 150ms;
+}
+.sabmais:not(:hover) {
+    cursor: pointer;
+    transform: scale(1);
+    transition: 150ms;
+}
+#sabdraw {
+    border-color: #F43838;
+    color: #F43838;
+}
+#sabedit {
+    border-color: #BD9500;
+    color: #BD9500;
+}
+#sabcount {
+    border-color: #069C4E;
+    color: #069C4E;
+}
+#sabcode {
+    border-color: #9C00FF;
+    color: #9C00FF;
+}
+#sabdesign {
+    border-color: #FF52AA;
+    color: #FF52AA;
+}
+#sabkeep {
+    border-color: #4452AC;
+    color: #4452AC;
+}
+#plangeral {
+    margin-top: 50px;
+    background-color: white;
+    height: 355px;
+    width: 1146px;
+    border-radius: 10px;
+}
+#divisao2 {
+    width: 1098px;
+    margin: 0px 24px 0px 24px;
+}
+#textogeral {
+    width: 1050px;
+    margin: 0px 25px 56px 25px;
+    font-size: 14px;
+    height: 46px;
+}
+#sabgeral {
+    width: 144px;
+    height: 32px;
+    margin: 25px 0px 25px 966px;
+}
+#sabgeral:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition:ease 150ms;
+}
+
+/* -------Avaliações------- */
+
+#avaliacoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#avaliatitle{
+    color: white;
+    font-size: 40px;
+    margin-top: 48px;
+}
+#balaodecorativo {
+    position: absolute;
+    left: 0px;
+    top: 2210px;
+}
+#aval1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #212020;
+    border-radius: 24px;
+    width: 800px;
+    height: 456px;
+    color: white;
+}
+#estrelas {
+    margin-top: 33px;
+    width: 210px;
+    height: 35px;
+}
+#comentdivis {
+    width: 576px;
+    background-color: #3F3F3F;
+}
+#avaltext1 {
+    height: 246px;
+    width: 602px;
+    text-align: center;
+}
