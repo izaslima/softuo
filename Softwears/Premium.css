@@ -1,0 +1,78 @@
+@font-face {
+    font-family: HelveticaBold;
+    src: url(../Assets/Helvetica-Bold.ttf);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 20px 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: black ;
+    font-size: 14px;
+    }
+
+#bloco {
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;;
+    width: 830px;
+    height: 370px;
+    margin: -5px 0px 10px 220px;
+    padding: 15px 10px 0px 70px;
+    box-sizing: content-box;
+}
+
+#botao {
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    margin: 20px 0px 0px 540px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#premium {
+    width: 910px;
+    padding: 0px 220px;
+}
+
+#blocao {
+    margin: 40px 0px 0px 0px;
+    position: absolute;
+}
+
+ul {
+    padding: 0px 0px 0px 20px;
+}
+#home {
+    position: absolute;
+    margin: -435px 0px 0px -35px;
+}
+
+#iconsoftuo {
+    position: absolute;
+    margin: -405px 0px 0px 680px;
+}
+
+#botaopremium {
+    position: absolute;
+    margin: 25px 0px 0px 1230px;
+}
+
+#botoes {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 22px 0px 0px 0px;
+}
+
+.botoes {
+    margin: 5px 0px 0px 0px;
+    width: 25px;
+}
