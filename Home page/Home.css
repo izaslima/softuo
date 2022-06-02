@@ -21,6 +21,7 @@ body {
     justify-content: center;
     gap: 58vw;
     top: 0px;
+    z-index: 1;
 }
 #simbolo {
     height: 32px;
@@ -38,7 +39,6 @@ body {
 #lupa {
     height: 32px;
     width: 32px;
-
 }
 #login {
     height: 32px;
@@ -114,6 +114,17 @@ body {
 }
 
 
+#cadastro:hover, #planos:hover, #confiravalia:hover, #login:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 150ms;
+    opacity: 50%;
+}
+#cadastro:not(:hover), #planos:not(:hover), #confiravalia:not(:hover), #login:not(:hover) {
+    cursor: pointer;
+    transform: scale(1);
+    transition: 150ms;
+}
 /* -------Softwears------- */
 
 #apps{
@@ -246,6 +257,9 @@ body {
     align-items: center;
     flex-direction: column;
 }
+#aval-block {
+    display: flex;
+}
 #avaliatitle{
     color: white;
     font-size: 40px;
@@ -255,13 +269,15 @@ body {
     position: absolute;
     left: 0px;
     top: 2210px;
+    z-index: -1;
 }
-#aval1 {
+#aval1, #aval2 {
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: #212020;
-    border-radius: 24px;
+    border-bottom-left-radius: 24px;
+    border-top-right-radius: 24px;
     width: 800px;
     height: 456px;
     color: white;
@@ -272,11 +288,86 @@ body {
     height: 35px;
 }
 #comentdivis {
+    margin-top: 24px;
     width: 576px;
-    background-color: #3F3F3F;
+    color: #3F3F3F;
+    opacity: 35%;
 }
 #avaltext1 {
+    margin-top: 34px;
     height: 246px;
     width: 602px;
     text-align: center;
+    font-size: 20px;
+    line-height: 32px;
+}
+#abrequote {
+    position: absolute;
+    top: 2420px;
+    left: 320px;
+}
+#fechaquote {
+    position: absolute;
+    top: 2700px;
+    right: 320px;
+}
+
+/* -------Avaliações------- */
+
+#comunidade {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 126px;
+}
+#comunititle {
+    color: white;
+    font-size: 40px;
+}
+
+/* -------Rodapé------- */
+#aterodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+#logo {
+    height: 136px;
+    width: 136px;
+    margin-top: 167px;
+}
+#slogan {
+    margin-top: 34px;
+    width: 482px;
+    height: 120px;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+}
+#textoantirod {
+    margin-top: 0px;
+    font-size: 14px;
+    color: white;
+}
+
+/* -------Avaliações------- */
+
+#rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15vw;
+    margin-top: 64px;
+    height: 64px;
+    width: 100vw;
+    background-color: #212020;
+}
+#copyright {
+    height: 23px;
+    width: 220px;
+}
+#atalhos {
+    color: white;
+    margin-left: 120px;
 }
