@@ -8,16 +8,24 @@
     <link rel="stylesheet" href="Home.css">
 </head>
 <body>
+    <img id="barrinha" src="Assets/barrinha colorida.png" alt="">
     <header id="hotbar">
         <div class="bloc_head">
+            <a id="logobar" href="#banner">
+                <img id="logohot" src="Assets/Softuo logo.png">
+                <p id="textologo">Softuo</p>
+            </a>
+            <div id="barrasepar"></div>
+            <a href="" class="textohotbar">Sobre nós</a>
+            <a href="#comunititle" class="textohotbar">Nossa Comunidade</a>
+        </div>
+        <div class="bloc_head">
+            <div id="lupa"><img src="Assets/Lupa de pesquisa.png"></div>
+            <a href="../Cadastro/login.html"><button id="login">Login</button></a>
+            <a href="../Cadastro/Cadastro.html"><button id="cadastro">Cadastre-se já</button></a>
             <img id="simbolo" src="Assets/Globo.png">
             <div id="idioma">Idioma</div>
             <img id="selecao" src="Assets/Flecha.png">
-        </div>
-        <div class="bloc_head" style="margin: 0 5rem 0 0">
-            <div id="lupa"><img src="Assets/Lupa de pesquisa.png" alt=""> </div>
-            <button id="login">Login</button>
-            <button id="cadastro">Cadastre-se já</button>
         </div>
     </header>
     <img id="faq" src="Assets/Botão FAQ.png">
@@ -27,8 +35,8 @@
             <p>Tenha as 6 ferramentas mais requisitas do mercado, incluindo Softuo Edit, Count, Draw e economize mais de 40% no primeiro ano. <a href="">Veja os termos</a>.</p>
         </div>
         <div id="botoes">
-            <button class="botao" id="planos">Confira os planos</button>
-            <button class="botao" id="confiravalia">Confira avaliações</button>
+            <a href="#softuo"><button class="botao" id="planos">Confira os planos</button></a>
+            <a href="#comunititle"><button class="botao" id="confiravalia">Confira avaliações</button></a>
         </div>
     </div>
     <div id="softwears">
@@ -87,19 +95,19 @@
                 <h3 class="titulos">Softuo Premium</h3>
                 <p id="textogeral">Tenha acesso agora a todos os apps mais requisitado do mercado e se divirta com as ferramentas mais completas e simples disponíveis atualmente!</p>
                 <hr id="divisao2">
-                <img id="sabgeral" src="Assets/botão geral.png">
+                <a href="../Softwears/Softuo Premium.html"><img id="sabgeral" src="Assets/botão geral.png"></a>
             </div>
         </div>
     </div>
     <div id="avaliacoes">
-        <img src="Assets/Balão de fala decorativo.png" alt="" id="balaodecorativo">
+        <img src="Assets/Balão de fala decorativo.png" id="balaodecorativo">
         <h2 id="avaliatitle">Avaliações</h2>
         <div id="aval1">
             <img id="estrelas" src="Assets/estrelas.png">
             <hr id="comentdivis">
-            <img id="abrequote" src="Assets/Quotes.png" alt="">
+            <img id="abrequote" src="Assets/Quotes.png">
             <p id="avaltext1"> Trabalho com Softuo desde 2013 e ainda estava em formação escolar. Foi surpreendente para turma começar o novo ano letivo com uma grande mudança nos programas de design, estavam diferentes e melhor. Já não era o Softuo Soft, mas uma ferramenta que facilitava a interligação entre os programas e seus ficheiros, com novas funcionalidades para uma melhor flexibilidade do usuário. Agora faz parte do meu dia a dia, recomendo a todos os designers.</p>
-            <img id="fechaquote" src="Assets/fecha quote.svg" alt="">
+            <img id="fechaquote" src="Assets/fecha quote.svg">
         </div>
     </div>
     <div id="comunidade">
@@ -107,13 +115,13 @@
         <img src="Assets/Imgs da comunidadee.png">
     </div>
     <div id="aterodape">
-        <img id="logo" src="Assets/Softuo logo.png" alt="">
+        <img id="logo" src="Assets/Softuo logo.png">
         <h2 id="slogan">Crie mundos com a ponta do seu mouse.</h2>
         <p id="textoantirod">Fotografia, vídeo, design gráfico, ilustração e muito mais. Tudo para dar vida à sua imaginação.</p>
     </div>
     <footer id="rodape">
         <img id="copyright" src="Assets/Copyright © 2022 Softuo.png">
-        <p id="atalhos">Termos de uso / Sobre nós / Privacidade / Comunidade / Veja os planos e textos</p>
+        <p id="atalhos">Termos de uso <span id="red">/</span> Sobre nós <span id="purple">/</span> Privacidade <span id="blue">/</span> Comunidade <span id="green">/</span> Veja os planos e textos</p>
     </footer>
 </body>
 </body>
