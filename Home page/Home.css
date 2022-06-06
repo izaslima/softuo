@@ -365,6 +365,14 @@ a {
 #comunititle {
     color: white;
     font-size: 40px;
+    margin-bottom: 0px;
+}
+#textocomunidade {
+    width: 1008px;
+    font-size: 22px;
+    color: white;
+    margin: 33px 0px;
+    text-align: center;
 }
 
 /* -------Rodapé------- */

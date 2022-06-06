@@ -107,7 +107,7 @@ body {
 }
 #voltar {
     position: absolute;
-    bottom: 80px;
+    top: 547px;
     right: 614px;
     font-size: 16px;
     font-weight: bold;
@@ -117,7 +117,7 @@ body {
 }
 #premium {
     position: absolute;
-    bottom: 75px;
+    top: 540px;
     right: 436px;
     width: 155px;
     height: 32px;
@@ -125,7 +125,7 @@ body {
 }
 .assinar {
     position: absolute;
-    bottom: 75px;
+    top: 540px;
     right: 148px;
     height: 32px;
     width: 264px;
