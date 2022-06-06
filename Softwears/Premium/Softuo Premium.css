@@ -1,0 +1,141 @@
+@font-face {
+    font-family: Helvetica;
+    src: url(../Helvetica-Font);
+}
+body {
+    margin: 0;
+    font-family: Helvetica;
+    background-color: #070707;
+    overflow-x: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+/* ---------Softwears--------- */
+
+.fundoselecao {
+    display: flex;
+    margin: 10px 0px 10px 0px;
+}
+.fundoselecao:hover, #voltar:hover, .botao:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 150ms;
+    opacity: 75%;
+}
+.fundoselecao:not(:hover), #voltar:not(:hover), .botao:not(:hover) {
+    cursor: pointer;
+    transform: scale(1);
+    transition: 150ms;
+}
+.fundo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2F2F2F;
+    height: 88px;
+    width: 104px;
+}
+.selecoes {
+    height: 88px;
+    width: 24px;
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 16px;
+}
+#selecaodraw {
+    background-color: #F43838;
+}
+#selecaoedit {
+    background-color: #FFFB52;
+}
+#selecaocount {
+    background-color: #4EF19E;
+}
+#selecaokeep {
+    background-color: #4D5DC4;
+}
+#selecaocode {
+    background-color: #4C166E;
+}
+#selecaodesign {
+    background-color: #D33D89;
+}
+.name {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+/* ---------Softuo Premium Peassoas e Empresas--------- */
+
+#softuopremium {
+    height: 537px;
+    width: 514px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 105px;
+}
+
+#softuopremiuminc {
+    height: 537px;
+    width: 514px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 41px;
+}
+.premiumtitle {
+    font-size: 20px;
+}
+.descricao {
+    margin-top: -35px;
+    margin-left: 30px;
+    width: 448px;
+    font-size: 14px;
+}
+.topicos {
+    line-height: 20px;
+}
+.vantagens {
+    font-weight: bold;
+}
+#frase {
+    font-weight: bold;
+}
+.botao {
+    height: 32px;
+    width: 264px;
+    border-radius: 16px;
+    margin-top: 32px;
+    margin-left: 206px;
+    background-color: #070707;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+#planval {
+    font-size: 8px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 333px;
+}
+#voltar {
+    width: 91px;
+    height: 32px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1 solid;
+    border-color: white;
+    border-radius: 16px;
+    color: white;
+    margin-left: 1056px;
+    margin-top:  17PX;
+}
+#plans {
+    display: flex;
+}
+#center {
+    display: flex;
+    flex-direction: column;
+}
