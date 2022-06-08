@@ -1,0 +1,128 @@
+@font-face {
+    font-family: Helvetica;
+    src: url(assets/helvetica/);
+}
+
+body {
+    width: 100vw;
+    margin: 0px;
+
+    display: flex;
+    overflow: hidden;
+    position: relative;
+
+    background: url(assets/cadastro.png);
+    background-size: cover;
+    
+    font-family: Helvetica, Arial;
+
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+
+    gap: 20vw;
+}
+
+.selection {
+    display: flex;
+    justify-content: center;
+}   
+
+.white {
+    width: 515px;
+    border-radius: 24px;
+    height: 572px;
+    background-color: rgb(255, 255, 255);
+}
+
+#purpleballs {
+    width: 16px;
+    height: 16px;
+    margin: 32px 10.5px;
+    border-radius: 120px;
+    background-color: #9C00FF;
+}
+
+.balls {
+    width: 16px;
+    height: 16px;
+    margin: 32px 10.5px;
+    border-radius: 120px;
+    background-color: #929292;
+
+}
+
+.titles {
+    font-size: 24px;
+    margin: 10px 97px;
+    font-weight: 300px;
+    text-align: center;
+}
+
+.subtitles {
+    font-size: 14px;
+    text-align: center;
+    margin: 15px 77px;
+}
+
+.texts {
+    font-size: 14px;
+}
+
+.info {
+    margin: 71px 0px 0px 74px;
+    font-size: 16px;
+}
+
+#bloco1 {
+    background-color:#D9D9D9;
+    display: flex;
+    align-items: center;
+    width: 370px;
+    height: 20px;
+    padding: 16px;
+    margin: 45px 0px 0px 55px;
+}
+
+#bloco2 {
+    background-color:#D9D9D9;
+    display: flex;
+    align-items: center;
+    width: 370px;
+    height: 20px;
+    padding: 16px;
+    margin: 35px 0px 0px 55px;
+}
+.button {
+    display: flex;
+    width:152px;
+    height: 41px;
+    border: 2px solid #9C00FF;
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 50px 0px 50px;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+#maintitle {
+    color: white;
+    font-size: 96px;
+    margin: 0px 85px 85px 0px;
+}
+
+#mainsubtitle {
+    color: white;
+    font-size: 27px;
+    margin: -80px 0px 0px 0px
+}
+
+#specialbutton {
+    color: white;
+    background-color: #9C00FF;
+}
