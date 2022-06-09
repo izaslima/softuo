@@ -11,15 +11,15 @@
 <body>
     <img id="barrinha" src="Assets/barrinha colorida.png" alt="">
     <header id="hotbar">
-        <div class="bloc_head">
+        <div id="bloc_head">
             <a id="logobar" href="#banner">
-             <p id="textologo">Softuo</p>
+            <p id="textologo">Softuo</p>
             </a>
             <div id="barrasepar"></div>
-            <a href="" class="textohotbar">Sobre nós</a>
+            <a href="../Sobre nós/Sobre nós.html" class="textohotbar">Sobre nós</a>
             <a href="#comunititle" class="textohotbar">Nossa Comunidade</a>
         </div>
-        <div class="bloc_head">
+        <div id="bloc_head2">
             <div id="lupa"><img src="Assets/Lupa de pesquisa.png"></div>
             <a href="../Cadastro/login.html"><button id="login">Login</button></a>
             <a href="../Cadastro/Cadastro.html"><button id="cadastro">Cadastre-se já</button></a>
@@ -28,7 +28,7 @@
             <img id="selecao" src="Assets/Flecha.png">
         </div>
     </header>
-    <img id="faq" src="Assets/Botão FAQ.png">
+    <a href="../Ajuda/Help.html"><img id="faq" src="Assets/Botão FAQ.png"></a>
     <div id="banner">
         <div id="texto">
             <h1 id="titulo">Crie mundos com a ponta do seu mouse!</h1>
@@ -112,7 +112,7 @@
     </div>
     <div id="comunidade">
         <h2 id="comunititle">Venha e faça parte da nossa comunidade!</h2>
-        <p id="textocomunidade">Faça parte da Comunidade Softuo e se divirta com os posts dos nossos usuários! Compartilhe os seus projetos e reutilize o que é compartilhado na plataforma! Clique aqui para acessar a comunidade e ver os projetos dos nossos usuários.</p>
+        <p id="textocomunidade">Faça parte da Comunidade Softuo e se divirta com os posts dos nossos usuários! Compartilhe os seus projetos e reutilize o que é compartilhado na plataforma! <ins>Clique aqui</ins> para acessar a comunidade e ver os projetos dos nossos usuários.</p>
         <img src="Assets/Imgs da comunidadee.png">
     </div>
     <div id="aterodape">
@@ -121,8 +121,18 @@
         <p id="textoantirod">Fotografia, vídeo, design gráfico, ilustração e muito mais. Tudo para dar vida à sua imaginação.</p>
     </div>
     <footer id="rodape">
-        <img id="copyright" src="Assets/Copyright © 2022 Softuo.png">
-        <p id="atalhos">Termos de uso <span id="red">/</span> Sobre nós <span id="purple">/</span> Privacidade <span id="blue">/</span> Comunidade <span id="green">/</span> Veja os planos e textos</p>
+        <img src="Assets/Copyright © 2022 Softuo.png">
+        <div id="atalhos">
+            <p>Termos de uso</p>
+            <span id="red">/</span>
+            <a href="../Sobre nós/Sobre nós.html">Sobre nós</a>
+            <span id="purple">/</span>
+            <p>Privacidade</p>
+            <span id="blue">/</span>
+            <a href="#comunititle">Comunidade</a>
+            <span id="green">/</span>
+            <a href="#softuo">Veja os planos e textos</a>
+        </div>
     </footer>
 </body>
 </body>
