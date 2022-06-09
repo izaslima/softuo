@@ -171,6 +171,7 @@ span {
 #scroll {
     overflow-y: scroll;
     height: 700px;
+    
 }
 
 .icones:hover {

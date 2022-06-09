@@ -1,0 +1,207 @@
+@font-face {
+    font-family: Helvetica;
+    src: url(../Helvetica-Font);
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0px;
+    height: 100vh;
+    font-family: Helvetica;
+    background-color: #070707;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* -------hotbar------- */
+
+#barrinha {
+    top: 0px;
+    z-index: 1;
+    position: sticky;
+}
+#logobar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logohot {
+    height: 48px;
+    width: 48px;
+}
+#textologo {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 16px;
+}
+#barrasepar {
+    background-color: white;
+    width: 2px;
+    height: 33px;
+    margin: 0px 0px 0px 24px;
+}
+.textohotbar {
+    color: white;
+    margin-left: 24px;
+}
+#hotbar{
+    height: 58px;
+    position: sticky;
+    width: 100vw;
+    background-color: #212020;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 7px;
+    margin-top: -35px;
+    z-index: 1;
+}
+#simbolo {
+    height: 32px;
+    width: 30px;
+    margin-left: 24px;
+}
+#idioma {
+    color: white;
+    font-size: 14px;
+    margin-left: 16px;
+}
+#selecao {
+    margin-left: 8px;
+}
+#lupa {
+    height: 32px;
+    width: 32px;
+}
+#login {
+    height: 32px;
+    width: 80px;
+    background-color: white;  
+    margin-left: 24px;
+    border-radius: 24px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+#cadastro {
+    height: 32px;
+    width: 135px;
+    background-color: #9C00FF;
+    border-radius: 24px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    margin-left: 24px;
+}
+#bloc_head{
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+}
+#bloc_head2{
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
+}
+#cadastro:hover, #login:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 150ms;
+    opacity: 50%;
+}
+#cadastro:not(:hover), #login:not(:hover) {
+    cursor: pointer;
+    transform: scale(1);
+    transition: 150ms;
+}
+/* -------Perguntas------- */
+
+#fundoperguntas {
+    height: 90vh;
+    width: 288px;
+    position: absolute;
+    top: 65px;
+    background-color: #212020;
+    z-index: -1;
+}
+#perguntas {
+    margin: 45px 45px 45px 30px;
+    width: 288px;
+}
+.problemas {
+    display: flex;
+    color: white;
+    margin: 9.5px 0px 9.5px 19px;
+}
+.espacamento {
+    display: flex;
+    align-items: center;
+    width: 220px;
+}
+.espacamento:hover {
+    background-color: #424242;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 150ms;
+}
+.espacamento:not(:hover) {
+    transition: 150ms;
+}
+#pegs {
+    margin-top: 0px;
+    display: flex;
+}
+#bemvindofaq {
+    margin: 45px 0px 0px 30px;
+    color: white;
+}
+#pegfreq {
+    font-size: 40px;
+}
+#texto {
+    font-size: 24px;
+    line-height: 27.6px;
+    width: 739px;
+}
+#baixe {
+    font-weight: 400;
+    font-size: 40px;
+}
+#textobaix {
+    width: 546px;
+    margin-left: 52px;
+    font-size: 24px;
+}
+#dowload {
+    display: flex;
+}
+#voltar {
+    background-color: white;
+    color: black;
+    width: 91px;
+    height: 32px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 800px;
+    margin-top: 52px;
+}
+#voltar:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 150ms;
+    opacity: 75%;
+}
+#voltar:not(:hover) {
+cursor: pointer;
+transform: scale(1);
+transition: 150ms;
+}
